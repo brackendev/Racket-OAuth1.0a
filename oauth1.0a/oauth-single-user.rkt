@@ -5,6 +5,7 @@
   net/base64
   rackunit)
 
+(provide (all-defined out))
 
 (define oauth-single-user%
   (class object%
